@@ -1,0 +1,26 @@
+Logical operators:
+1. And - &&
+2. Or - ||
+3. Not - !
+
+t && t => t
+t && f => f
+f && t => f
+f && f => f
+
+t || t => t
+t || f => t
+f || t => t
+f || f => f
+
+!t => f
+!f => t
+
+* Works only w/ boolean data type.
+* Will be used to combine multiple conditions
+* For And operator if Java will find false as first Java will not go further
+* For Or operator if Java will find true as first Java will not go further
+
+ **  b1 && b3 && b2 || b2 || b3 && b1 && b2 || b1 Do not cary about
+                anything before b1. b1 is true in OR operator => entire operator
+                will be true.
