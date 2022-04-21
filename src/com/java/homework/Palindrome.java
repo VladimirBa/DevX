@@ -9,15 +9,36 @@ public class Palindrome {
         String str = input.nextLine();
         String reverseStr = "";
 
-        for (int i = (str.length() - 1); i >=0; --i) {
+
+        for (int i = (str.length() - 1); i >= 0; --i) {
             reverseStr = reverseStr + str.charAt(i);
         }
 
         if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
             System.out.println(str + " is a Palindrome word.");
-        }
-        else {
+        } else {
             System.out.println(str + " is not a Palindrome word.");
         }
     }
+    //////////////////////////////////// Another method for Palindrome:
+//    public static void main(String[] args) {
+//        System.out.println("Enter any String: ");
+//        Scanner sc = new Scanner(System.in);
+//        String str = sc.nextLine();
+//        IsPalindrome(str);
+//    }
+//
+//
+//    static void IsPalindrome(String str) {
+//        String res = "";
+//        for (int i = 0; i < str.length() / 2; i++) {
+//
+//            if (str.charAt(i) == str.charAt(str.length() - 1 - i)) {
+//                res = "Palindrome";
+//            } else {
+//                res = "Not Palindrome";
+//            }
+//        }
+//        System.out.println(res);
+//    }
 }

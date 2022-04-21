@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 4) if a double character, print characters 2 times. ex: @@ -> @@@@
  */
 
-public class TeamWork041422_2 {
+public class TW_041422_2_MiddleChars {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word: ");

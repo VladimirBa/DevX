@@ -25,7 +25,7 @@ import java.util.Scanner;
  * Incorrect input! Cannot merge
  */
 
-public class TeamWork041422_3 {
+public class TW_k041422_3_FirstFirst {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two words and each of no more than 3 letters:");

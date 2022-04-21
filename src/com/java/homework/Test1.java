@@ -1,30 +1,13 @@
 package com.java.homework;
 
+import java.util.Scanner;
+
 public class Test1 {
     public static void main(String[] args) {
-        String res = "";
-        boolean res1 = true;
-        String a = "AbC";
-        String b = "abXab";
-        int lena = a.length();
-        int lenb = b.length();
-
-        String str = "1.xyz.xyz2.xyz";
-        String word = "i";
-        String newstr = "";
-        ////////////////////////
-        String aL = a.toLowerCase();
-        String bL = b.toLowerCase();
-        System.out.println(str.replace(".xyz", ""));
-
-
-
-
-
-
-
-
-
-
+        System.out.println("Enter a number:");
+        Scanner sc = new Scanner(System.in);
+        char c = sc.next().charAt(0);
+        System.out.println();
     }
 }
+

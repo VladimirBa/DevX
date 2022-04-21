@@ -12,8 +12,8 @@ package com.java.homework;
 
         */
 import java.util.Scanner;
-
-public class TeamWork041422_1 {
+/* Concatenate 2 string. If last char of first equals first cahr of second remove one this char: abc + cat => abcat.*/
+public class TW_041422_1_ConcatMiddle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.nextLine();
