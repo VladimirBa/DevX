@@ -9,7 +9,7 @@ public class FindOccuranceOfChar {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println("There are " + str.length() + " characters totally in the sentence");
-        System.out.println("Enter a char that you want to find in entered sentence");
+        System.out.println("Enter a char, that you! want to find in / *  entered sentence");
 
         char c = sc.next().charAt(0);  //<= Does not work with it!
 //        char c = ' ';
